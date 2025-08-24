@@ -4,7 +4,6 @@ from esphome.components.audio_dac import AudioDac
 import esphome.config_validation as cv
 from esphome.const import CONF_ID
 
-CODEOWNERS = ["@justnoot"]
 DEPENDENCIES = ["i2c"]
 
 tas5825m_ns = cg.esphome_ns.namespace("tas5825m")
